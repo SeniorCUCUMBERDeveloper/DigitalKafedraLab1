@@ -20,7 +20,7 @@ public class Main {
     sc.print();
 
     System.out.println("\nСтуденты на 2 курсе:");
-    sc.printStudents(sc.getStudents(), 2);
+    StudentCollection.printStudents(sc.getStudents(), 2);
 
 
     sc.removeStudent(new Student("Bob", "B2", 2, 2.5f));

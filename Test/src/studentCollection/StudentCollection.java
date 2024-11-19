@@ -54,7 +54,7 @@ public class StudentCollection {
         }
     }
 
-    public void printStudents(List<Student> students_, int course){
+    public static void printStudents(List<Student> students_, int course){
         if(students_.isEmpty()){
             System.out.println("No students in the collection.");
             return;
